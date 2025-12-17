@@ -1,17 +1,19 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Grok//China National Day of Mourning//ZH
+PRODID:-//Grok//China Memorial Days//ZH
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:中国国家公祭日
-X-WR-CALDESC:每年12月13日 南京大屠杀死难者国家公祭日
+X-WR-CALNAME:国家公祭日 - 南京大屠杀死难者
+X-WR-CALDESC:南京大屠杀死难者国家公祭日（每年12月13日）
 BEGIN:VEVENT
-UID:china-national-mourning-day@example.com
+UID:china-national-mourning-day-1937@example.com
 DTSTAMP:20251217T000000Z
-DTSTART;VALUE=DATE:20251213
-DTEND;VALUE=DATE:20251214
-SUMMARY:国家公祭日（南京大屠杀死难者）
-DESCRIPTION:南京大屠杀死难者国家公祭日\n铭记历史，缅怀同胞，珍爱和平
+CREATED:20251217T000000Z
+DTSTART;VALUE=DATE:19371213
+DTEND;VALUE=DATE:19371214
+SUMMARY:南京大屠杀死难者国家公祭日
+LOCATION:侵华日军南京大屠杀遇难同胞纪念馆（江苏省南京市建邺区水西门大街418号）
+DESCRIPTION:1937年12月13日，侵华日军攻占南京后，实施长达40多天惨绝人寰的大屠杀，造成30万以上中国平民和士兵死亡，这是人类文明史上灭绝人性的惨案。\n\n2014年2月27日，第十二届全国人大常委会第七次会议决定，将每年12月13日设立为南京大屠杀死难者国家公祭日，以国家层面悼念南京大屠杀死难者及所有在日本侵华战争期间惨遭日本侵略者杀戮的死难同胞。\n\n公祭仪式每年在侵华日军南京大屠杀遇难同胞纪念馆举行，包括奏国歌、全城默哀、防空警报鸣响、献花圈、和平鸽放飞等环节。\n\n参考来源：https://zh.wikipedia.org/wiki/南京大屠杀死难者国家公祭日\n\n相关图片（点击查看）:\n- 公祭仪式现场：http://pic.people.com.cn/NMediaFile/2023/1213/MAIN1702453510783N3C836YFUB.JPG\n- 纪念馆外观：https://au.njust.edu.cn/_upload/article/images/78/0f/61e90c6248538477d0f0022d40b3/958a8760-bf9f-4bc9-a855-4608c6ff7794.png\n- 历史遗址照片：https://www.scdfz.org.cn/upload/main/contentmanage/article/image/2024/11/01/8f5fd80362024061b9d69c793ba4d989.jpeg
 RRULE:FREQ=YEARLY
 TRANSP:TRANSPARENT
 CLASS:PUBLIC
